@@ -3,7 +3,7 @@
 #####################################
 
 Introduction
-------------
+============
 
 Documents my personal setup.
 
@@ -50,8 +50,14 @@ but it will likely be faster just restarting instead of micro-managing services 
 
   ... needs-restarting
 
-install :code:`ansible`
------------------------
+Install prefered Terminal and Shell
+===================================
+
+This topic has its own page:
+https://github.com/TorbenJakobsen/setup_terminal_and_shell.
+
+Install :code:`ansible`
+=======================
 
 https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.html
 
