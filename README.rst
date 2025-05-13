@@ -2,21 +2,25 @@
   Setup Debian Linux as Workstation
 #####################################
 
-Introduction
-============
+| I am exitedly awaiting Debian 13.
+| Until then I will use Fedora 42 with Cosmic desktop.
+
+****************
+  Introduction
+****************
 
 Documents my personal setup.
 
 A better way is to use Ansible, and I will get there eventually.
 
 Initial Housekeeping
---------------------
+====================
 
-Package manager
-~~~~~~~~~~~~~~~~
+Package Manager
+---------------
 
 Initial update
-~~~~~~~~~~~~~~
+--------------
 
 .. note:: 
 
