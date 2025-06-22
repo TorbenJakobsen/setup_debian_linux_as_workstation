@@ -54,6 +54,15 @@ but it will likely be faster just restarting instead of micro-managing services 
 
   ... needs-restarting
 
+Setting LOCALE
+
+.. code:: bash
+
+  $ locale -a
+  locale: Cannot set LC_CTYPE to default locale: No such file or directory
+  locale: Cannot set LC_MESSAGES to default locale: No such file or directory
+  locale: Cannot set LC_COLLATE to default locale: No such file or directory
+
 .. code:: bash
   
   su -l -c "dpkg-reconfigure locales"
@@ -78,8 +87,8 @@ install the full package:
 
 It is also possible to install just the core and modules of your choosing.
 
-:code:`ssh`` Keys
------------------
+:code:`ssh` Keys
+----------------
 
 To access :ode:`git` you will need a public key.
 
