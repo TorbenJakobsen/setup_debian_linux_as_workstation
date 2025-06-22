@@ -54,6 +54,11 @@ but it will likely be faster just restarting instead of micro-managing services 
 
   ... needs-restarting
 
+.. code:: bash
+  
+  su -l -c "dpkg-reconfigure locales"
+  sudo dpkg-reconfigure locales
+
 Install prefered Terminal and Shell
 ===================================
 
