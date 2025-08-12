@@ -269,3 +269,22 @@ Other packages to consider
 .. code:: bash 
 
   sudo ...
+
+
+Setting 24 hour clock on login screen
+
+..code:: bash
+
+  sudo nano /etc/default/locale
+
+Add:
+
+..code:: text
+
+  LC_TIME="C.UTF-8"
+  LC_ALL=""
+
+or use :code:ùpdate-locale` - untried...
+
+Needs restart or log out/in...
+
